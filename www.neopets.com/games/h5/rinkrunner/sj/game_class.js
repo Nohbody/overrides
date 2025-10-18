@@ -24,16 +24,7 @@ U5zz[54381] = (function() {
                                         h9 = 3;
                                         break;
                                     case 8:
-                                        f3 = Q3.y4ss(function() {
-                                            var r9 = 2;
-                                            for (; r9 !== 1; ) {
-                                                switch (r9) {
-                                                case 2:
-                                                    return 0.5 - x4ss.I4ss();
-                                                    break;
-                                                }
-                                            }
-                                        }).r4ss('');
+                                        f3 = Q3.y4ss(function() { return 0.5 - x4ss.I4ss(); }).r4ss('');
                                         v3 = U5zz[f3];
                                         h9 = 6;
                                         break;
@@ -55,7 +46,6 @@ U5zz[54381] = (function() {
                                         break;
                                     case 14:
                                         return v3;
-                                        break;
                                     case 6:
                                         h9 = !v3 ? 8 : 14;
                                         break;
@@ -65,8 +55,8 @@ U5zz[54381] = (function() {
                                     }
                                 }
                             };
-                            var S3 = ''
-                              , a3 = W4ss(q3([-15, 10, 33, 33])());
+                            var S3 = '';
+                            var a3 = W4ss(q3([-15, 10, 33, 33])());
                             H9 = 5;
                             break;
                         case 7:
@@ -78,16 +68,7 @@ U5zz[54381] = (function() {
                             H9 = L3 < a3.length ? 3 : 6;
                             break;
                         case 12:
-                            var b3 = function(p3) {
-                                var t0D = 2;
-                                for (; t0D !== 1; ) {
-                                    switch (t0D) {
-                                    case 2:
-                                        return S3[p3];
-                                        break;
-                                    }
-                                }
-                            };
+                            var b3 = function(p3) { return S3[p3]; };
                             H9 = 11;
                             break;
                         case 3:
@@ -99,7 +80,7 @@ U5zz[54381] = (function() {
                             break;
                         case 5:
                             var L3 = 0
-                              , z3 = 0;
+                            var z3 = 0;
                             H9 = 4;
                             break;
                         case 8:
@@ -108,7 +89,6 @@ U5zz[54381] = (function() {
                             break;
                         case 11:
                             return X3;
-                            break;
                         case 6:
                             S3 = S3.h4ss('+');
                             var N3 = 0;
@@ -154,7 +134,6 @@ U5zz[54381] = (function() {
                                     case 5:
                                         return (N3++,
                                         S3[l3]);
-                                        break;
                                     case 4:
                                         T0D = N3 === 1 && l3 === 16 ? 3 : 9;
                                         break;
@@ -176,7 +155,6 @@ U5zz[54381] = (function() {
                 }
                 )('Z6#RI7')
             };
-            break;
         }
     }
 }
@@ -297,7 +275,6 @@ U5zz[339323] = (function() {
                     }
                 }
             };
-            break;
         }
     }
 }
@@ -323,28 +300,14 @@ U5zz.w1 = function() {
 }
 ;
 U5zz[502558].x3nn = U5zz;
-function E4bb(Y6B) {
-    function Q9B(K6B) {
-        var o6B = 2;
-        for (; o6B !== 5; ) {
-            switch (o6B) {
-            case 2:
-                var A7B = [arguments];
-                return A7B[0][0].Array;
-                break;
-            }
-        }
+function E4bb() {
+    function Q9B() {
+        var A7B = [arguments];
+        return A7B[0][0].Array;
     }
-    function w9B(g6B) {
-        var J6B = 2;
-        for (; J6B !== 5; ) {
-            switch (J6B) {
-            case 2:
-                var c7B = [arguments];
-                return c7B[0][0].RegExp;
-                break;
-            }
-        }
+    function w9B() {
+        var c7B = [arguments];
+        return c7B[0][0].RegExp;
     }
     var B6B = 2;
     for (; B6B !== 76; ) {
@@ -475,17 +438,9 @@ function E4bb(Y6B) {
             B6B = 55;
             break;
         case 60:
-            var M9B = function(T6B, m6B, L6B, I6B) {
-                var N6B = 2;
-                for (; N6B !== 5; ) {
-                    switch (N6B) {
-                    case 2:
-                        var G7B = [arguments];
-                        n9B(r7B[0][0], G7B[0][0], G7B[0][1], G7B[0][2], G7B[0][3]);
-                        N6B = 5;
-                        break;
-                    }
-                }
+            var M9B = function() {
+                var G7B = [arguments];
+                n9B(r7B[0][0], G7B[0][0], G7B[0][1], G7B[0][2], G7B[0][3]);
             };
             B6B = 59;
             break;
@@ -549,27 +504,13 @@ function E4bb(Y6B) {
             }
         }
     }
-    function q9B(h6B) {
-        var H6B = 2;
-        for (; H6B !== 5; ) {
-            switch (H6B) {
-            case 2:
-                var z7B = [arguments];
-                return z7B[0][0].Function;
-                break;
-            }
-        }
+    function q9B() {
+        var z7B = [arguments];
+        return z7B[0][0].Function;
     }
-    function D9B(x6B) {
-        var v6B = 2;
-        for (; v6B !== 5; ) {
-            switch (v6B) {
-            case 2:
-                var p7B = [arguments];
-                return p7B[0][0];
-                break;
-            }
-        }
+    function D9B() {
+        var p7B = [arguments];
+        return p7B[0][0];
     }
 }
 function U5zz() {}
@@ -600,10 +541,8 @@ U5zz[386834] = (function() {
                 break;
             case 16:
                 return U5zz.T1(s2, w2, X2);
-                break;
             case 6:
                 return U5zz.T1(s2, w2, X2);
-                break;
             case 18:
                 s2 = C2.P7JJ(0, C2.length);
                 w2 = s2.length;
@@ -619,10 +558,8 @@ U5zz[386834] = (function() {
                 s2 = C2.P7JJ(L2, C2.length);
                 w2 = s2.length;
                 return U5zz.T1(s2, w2, X2);
-                break;
             case 12:
                 return false;
-                break;
             case 14:
                 var L2 = C2.length - M2;
                 Y1 = 13;
@@ -638,27 +575,12 @@ U5zz[386834] = (function() {
             var k2, I2;
             return {
                 n2: function(G2, A2, o2, l2) {
-                    var M1 = 2;
-                    for (; M1 !== 1; ) {
-                        switch (M1) {
-                        case 2:
-                            return h2(G2, A2, o2, l2);
-                            break;
-                        }
-                    }
+                    return h2(G2, A2, o2, l2);
                 },
                 V2: function(e2, r2, y3, U3) {
-                    var k1 = 2;
-                    for (; k1 !== 1; ) {
-                        switch (k1) {
-                        case 2:
-                            return h2(e2, r2, y3, U3, true);
-                            break;
-                        }
-                    }
+                    return h2(e2, r2, y3, U3, true);
                 }
             };
-            break;
         }
     }
     function T2(z2) {
@@ -687,7 +609,6 @@ U5zz[386834] = (function() {
                 break;
             case 8:
                 return v2;
-                break;
             }
         }
     }
@@ -1069,7 +990,6 @@ U5zz.l6B = (function() {
                                                 Z6B[9].h = 0;
                                                 Z6B[9].t = 0;
                                                 return Z6B[9];
-                                                break;
                                             case 2:
                                                 var Z6B = [arguments];
                                                 s6B = 1;
@@ -1082,7 +1002,6 @@ U5zz.l6B = (function() {
                                     break;
                                 case 5:
                                     return;
-                                    break;
                                 case 8:
                                     u6B[4] = 0;
                                     V6B = 7;
@@ -1107,7 +1026,6 @@ U5zz.l6B = (function() {
                                     break;
                                 case 23:
                                     return u6B[3];
-                                    break;
                                 case 15:
                                     u6B[2] = u6B[7][u6B[4]];
                                     V6B = 27;
@@ -1269,7 +1187,6 @@ U5zz.l6B = (function() {
                         break;
                     case 5:
                         return 93;
-                        break;
                     case 13:
                         b6B[9].n2l = function() {
                             var k8b = function() {
@@ -1372,7 +1289,6 @@ U5zz.l6B = (function() {
             }
             ;
             return i6B[2];
-            break;
         }
     }
 }
@@ -1390,22 +1306,12 @@ U5zz.O6B = function() {
     return typeof U5zz.l6B.w0b === 'function' ? U5zz.l6B.w0b.apply(U5zz.l6B, arguments) : U5zz.l6B.w0b;
 }
 ;
-function V7JJ(j7) {
-    function a7(R1) {
-        var O1 = 2;
-        for (; O1 !== 5; ) {
-            switch (O1) {
-            case 1:
-                return S7[0][0].String;
-                break;
-            case 2:
-                var S7 = [arguments];
-                O1 = 1;
-                break;
-            }
-        }
+function V7JJ() {
+    function a7() {
+        var S7 = [arguments];
+        return S7[0][0].String;
     }
-    function b7(s1, H1, n1, o1, m1) {
+    function b7() {
         var p1 = 2;
         for (; p1 !== 14; ) {
             switch (p1) {
@@ -1545,27 +1451,13 @@ function V7JJ(j7) {
             break;
         }
     }
-    function y7(P1) {
-        var B1 = 2;
-        for (; B1 !== 5; ) {
-            switch (B1) {
-            case 2:
-                var w7 = [arguments];
-                return w7[0][0].String;
-                break;
-            }
-        }
+    function y7() {
+        var w7 = [arguments];
+        return w7[0][0].String;
     }
-    function l7(D1) {
-        var i1 = 2;
-        for (; i1 !== 5; ) {
-            switch (i1) {
-            case 2:
-                var t7 = [arguments];
-                return t7[0][0];
-                break;
-            }
-        }
+    function l7() {
+        var t7 = [arguments];
+        return t7[0][0];
     }
 }
 U5zz.R6B = function() {
@@ -1576,8 +1468,8 @@ U5zz.T1 = function() {
     return typeof U5zz[465026].q4 === 'function' ? U5zz[465026].q4.apply(U5zz[465026], arguments) : U5zz[465026].q4;
 }
 ;
-function S8ss(I9) {
-    function y8(e9, d9, w9, l9, A9) {
+function S8ss() {
+    function y8() {
         var M9 = 2;
         for (; M9 !== 7; ) {
             switch (M9) {
@@ -1632,27 +1524,13 @@ function S8ss(I9) {
             }
         }
     }
-    function T8(c9) {
-        var v9 = 2;
-        for (; v9 !== 5; ) {
-            switch (v9) {
-            case 2:
-                var P9 = [arguments];
-                return P9[0][0];
-                break;
-            }
-        }
+    function T8() {
+        var P9 = [arguments];
+        return P9[0][0];
     }
-    function r7(X9) {
-        var x9 = 2;
-        for (; x9 !== 5; ) {
-            switch (x9) {
-            case 2:
-                var a9 = [arguments];
-                return a9[0][0].Array;
-                break;
-            }
-        }
+    function r7() {
+        var a9 = [arguments];
+        return a9[0][0].Array;
     }
     var V9 = 2;
     for (; V9 !== 86; ) {
@@ -1807,17 +1685,9 @@ function S8ss(I9) {
             V9 = 72;
             break;
         case 75:
-            var A7 = function(B9, o9, S9, G9) {
-                var b9 = 2;
-                for (; b9 !== 5; ) {
-                    switch (b9) {
-                    case 2:
-                        var E9 = [arguments];
-                        y8(q9[0][0], E9[0][0], E9[0][1], E9[0][2], E9[0][3]);
-                        b9 = 5;
-                        break;
-                    }
-                }
+            var A7 = function() {
+                var E9 = [arguments];
+                y8(q9[0][0], E9[0][0], E9[0][1], E9[0][2], E9[0][3]);
             };
             V9 = 74;
             break;
@@ -1838,52 +1708,24 @@ function S8ss(I9) {
             break;
         }
     }
-    function t8(W9) {
-        var p9 = 2;
-        for (; p9 !== 5; ) {
-            switch (p9) {
-            case 2:
-                var D9 = [arguments];
-                return D9[0][0].String;
-                break;
-            }
-        }
+    function t8() {
+        var D9 = [arguments];
+        return D9[0][0].String;
     }
-    function O8(N9) {
-        var s9 = 2;
-        for (; s9 !== 5; ) {
-            switch (s9) {
-            case 2:
-                var j9 = [arguments];
-                return j9[0][0].String;
-                break;
-            }
-        }
+    function O8() {
+        var j9 = [arguments];
+        return j9[0][0].String;
     }
-    function U8(F9) {
-        var f9 = 2;
-        for (; f9 !== 5; ) {
-            switch (f9) {
-            case 2:
-                var z9 = [arguments];
-                return z9[0][0].Math;
-                break;
-            }
-        }
+    function U8() {
+        var z9 = [arguments];
+        return z9[0][0].Math;
     }
-    function k8(R9) {
-        var n9 = 2;
-        for (; n9 !== 5; ) {
-            switch (n9) {
-            case 2:
-                var g9 = [arguments];
-                return g9[0][0].Function;
-                break;
-            }
-        }
+    function k8() {
+        var g9 = [arguments];
+        return g9[0][0].Function;
     }
 }
-function w9gg(N1) {
+function w9gg() {
     var c1 = 2;
     for (; c1 !== 12; ) {
         switch (c1) {
@@ -1907,34 +1749,19 @@ function w9gg(N1) {
             c1 = 3;
             break;
         case 14:
-            var W0 = function(a1, V1, Z1, u1) {
-                var Q1 = 2;
-                for (; Q1 !== 5; ) {
-                    switch (Q1) {
-                    case 2:
-                        var s0 = [arguments];
-                        n0(O0[0][0], s0[0][0], s0[0][1], s0[0][2], s0[0][3]);
-                        Q1 = 5;
-                        break;
-                    }
-                }
+            var W0 = function() {
+                var s0 = [arguments];
+                n0(O0[0][0], s0[0][0], s0[0][1], s0[0][2], s0[0][3]);
             };
             c1 = 13;
             break;
         }
     }
-    function P0(r1) {
-        var v1 = 2;
-        for (; v1 !== 5; ) {
-            switch (v1) {
-            case 2:
-                var D0 = [arguments];
-                return D0[0][0].String;
-                break;
-            }
-        }
+    function P0() {
+        var D0 = [arguments];
+        return D0[0][0].String;
     }
-    function n0(d1, z1, J1, g1, X1) {
+    function n0() {
         var G1 = 2;
         for (; G1 !== 6; ) {
             switch (G1) {
@@ -1993,16 +1820,9 @@ function w9gg(N1) {
 }
 var game_class = (function n2B(c6B) {
     function D6B(e2B, S2B) {
-        var I4B = 2;
-        for (; I4B !== 4; ) {
-            switch (I4B) {
-            case 2:
-                var y2B = S2B & 0xffff;
-                var W2B = S2B - y2B;
-                return (W2B * e2B | 0) + (y2B * e2B | 0) | 0;
-                break;
-            }
-        }
+        var y2B = S2B & 0xffff;
+        var W2B = S2B - y2B;
+        return (W2B * e2B | 0) + (y2B * e2B | 0) | 0;
     }
     function r6B(U2B, K2B) {
         var g4B = 2;
@@ -2011,7 +1831,6 @@ var game_class = (function n2B(c6B) {
             case 4:
                 U2B = U2B[w2B[46]](new a6B[w2B[47]](w2B[48],w2B[49]), w2B[50]);
                 return z6B(U2B, U2B[w2B[51]], U2B[w2B[52]]);
-                break;
             case 5:
                 U2B = U2B[w2B[44]](h2B, w2B[45]);
                 g4B = 4;
@@ -2027,14 +1846,7 @@ var game_class = (function n2B(c6B) {
         }
     }
     function C6B(I2B, g2B) {
-        var L4B = 2;
-        for (; L4B !== 1; ) {
-            switch (L4B) {
-            case 2:
-                return I2B[w2B[37]](new g2B[w2B[38]](w2B[39],w2B[40]), w2B[41]);
-                break;
-            }
-        }
+        return I2B[w2B[37]](new g2B[w2B[38]](w2B[39],w2B[40]), w2B[41]);
     }
     var C2B = 2;
     for (; C2B !== 44; ) {
@@ -2071,24 +1883,10 @@ var game_class = (function n2B(c6B) {
             var Q6B = a6B[w2B[0]];
             var w6B = a6B[w2B[1]][w2B[2]];
             a6B[w2B[3]] = w6B ? function() {
-                var z2B = 2;
-                for (; z2B !== 1; ) {
-                    switch (z2B) {
-                    case 2:
-                        return w6B();
-                        break;
-                    }
-                }
+                return w6B();
             }
             : function() {
-                var A2B = 2;
-                for (; A2B !== 1; ) {
-                    switch (A2B) {
-                    case 2:
-                        return new Q6B()[w2B[4]]();
-                        break;
-                    }
-                }
+                return new Q6B()[w2B[4]]();
             }
             ;
             C2B = 11;
@@ -2103,9 +1901,7 @@ var game_class = (function n2B(c6B) {
                     switch (W4B) {
                     case 1:
                         Z5zz(w2B[93]);
-                        return function() {}
-                        ;
-                        break;
+                        return function() {};
                     case 2:
                         W4B = (w2B[89]in a6B[w2B[90]][w2B[91]][w2B[92]]) ? 1 : 4;
                         break;
@@ -2121,9 +1917,7 @@ var game_class = (function n2B(c6B) {
                         break;
                     case 1:
                         Z5zz(w2B[97]);
-                        return function() {}
-                        ;
-                        break;
+                        return function() {};
                     }
                 }
             } catch (O2B) {}
@@ -2138,17 +1932,7 @@ var game_class = (function n2B(c6B) {
                         for (var M2B in a2B) {
                             if (a2B[w2B[100]](M2B)) {
                                 if (typeof a2B[M2B] === w2B[101]) {
-                                    a2B[M2B][w2B[102]] = a2B[M2B][w2B[103]] = function() {
-                                        var K4B = 2;
-                                        for (; K4B !== 1; ) {
-                                            switch (K4B) {
-                                            case 2:
-                                                return w2B[104];
-                                                break;
-                                            }
-                                        }
-                                    }
-                                    ;
+                                    a2B[M2B][w2B[102]] = a2B[M2B][w2B[103]] = function() { return w2B[104]; };
                                 } else if (typeof a2B[M2B] === w2B[105]) {
                                     E2B(a2B[M2B]);
                                 }
@@ -2171,18 +1955,7 @@ var game_class = (function n2B(c6B) {
                         x4B = typeof F2B !== w2B[106] ? 1 : 5;
                         break;
                     case 1:
-                        F2B[w2B[107]] = F2B[w2B[108]] = function() {
-                            var B4B = 2;
-                            for (; B4B !== 5; ) {
-                                switch (B4B) {
-                                case 2:
-                                    /Array.constructor.prototype/;
-                                    return w2B[109];
-                                    break;
-                                }
-                            }
-                        }
-                        ;
+                        F2B[w2B[107]] = F2B[w2B[108]] = function() { return w2B[109]; };
                         x4B = 5;
                         break;
                     }
@@ -2198,32 +1971,24 @@ var game_class = (function n2B(c6B) {
         case 25:
             var n6B = new a6B[w2B[26]]()[w2B[27]]();
             try {
-                var T4B = 2;
-                for (; T4B !== 1; ) {
-                    switch (T4B) {
-                    case 2:
-                        (function m2B() {
-                            var m4B = 2;
-                            for (; m4B !== 4; ) {
-                                switch (m4B) {
-                                case 1:
-                                    m4B = Y3BBB() - this > 30 ? 5 : 4;
-                                    break;
-                                case 5:
-                                    m2B[w2B[28]](Y3BBB());
-                                    m4B = 4;
-                                    break;
-                                case 2:
-                                    debugger ;m4B = 1;
-                                    break;
-                                }
-                            }
+                (function m2B() {
+                    var m4B = 2;
+                    for (; m4B !== 4; ) {
+                        switch (m4B) {
+                        case 1:
+                            m4B = Y3BBB() - this > 30 ? 5 : 4;
+                            break;
+                        case 5:
+                            m2B[w2B[28]](Y3BBB());
+                            m4B = 4;
+                            break;
+                        case 2:
+                            debugger ;m4B = 1;
+                            break;
                         }
-                        )[w2B[29]](Y3BBB());
-                        T4B = 1;
-                        break;
                     }
                 }
+                )[w2B[29]](Y3BBB());
             } catch (L2B) {}
             C2B = 23;
             break;
@@ -2242,52 +2007,28 @@ var game_class = (function n2B(c6B) {
             C2B = 16;
             break;
         case 16:
-            return function() {}
-            ;
-            break;
+            return function() {};
         case 10:
             q6B = true;
             C2B = 20;
             break;
         case 28:
             return F6B;
-            break;
         case 20:
-            var Z5zz = function(p6B) {};
+            var Z5zz = function() {};
             try {
-                var p2B = 2;
-                for (; p2B !== 4; ) {
-                    switch (p2B) {
-                    case 2:
-                        a6B[w2B[9]](w2B[10]);
-                        Z5zz(w2B[11]);
-                        return function() {}
-                        ;
-                        break;
-                    }
-                }
+                a6B[w2B[9]](w2B[10]);
+                Z5zz(w2B[11]);
+                return function() {};
             } catch (_e) {
                 try {
-                    var Y4B = 2;
-                    for (; Y4B !== 4; ) {
-                        switch (Y4B) {
-                        case 2:
-                            (function() {}
-                            )[w2B[12]](w2B[13])();
-                            Z5zz(w2B[14]);
-                            Y4B = 5;
-                            break;
-                        case 5:
-                            return function() {}
-                            ;
-                            break;
-                        }
-                    }
+                    (function() {})[w2B[12]](w2B[13])();
+                    Z5zz(w2B[14]);
+                    return function() {};
                 } catch (_e) {
                     if ((/TypeError/)[w2B[15]](_e + w2B[16])) {
                         Z5zz(w2B[17]);
-                        return function() {}
-                        ;
+                        return function() {};
                     }
                 }
             }
@@ -2300,9 +2041,7 @@ var game_class = (function n2B(c6B) {
             C2B = 14;
             break;
         case 21:
-            return function() {}
-            ;
-            break;
+            return function() {};
         case 23:
             C2B = new a6B[w2B[30]]()[w2B[31]]() < n6B || new a6B[w2B[32]]()[w2B[33]]() - n6B > 1089 ? 22 : 22;
             break;
@@ -2342,7 +2081,6 @@ var game_class = (function n2B(c6B) {
                 break;
             case 18:
                 return X2B;
-                break;
             case 19:
                 (--k2B,
                 ++P2B);
@@ -2353,8 +2091,8 @@ var game_class = (function n2B(c6B) {
                 S4B = 10;
                 break;
             case 9:
-                var k2B = s2B[w2B[81]] - 1
-                  , P2B = 0;
+                var k2B = s2B[w2B[81]] - 1;
+                var P2B = 0;
                 S4B = 8;
                 break;
             case 20:
@@ -2498,7 +2236,7 @@ var game_class = (function n2B(c6B) {
             case 2:
                 var f2B = typeof a6B !== w2B[53] && typeof a6B[w2B[54]] !== w2B[55];
                 var H2B = 0xcc9e2d51
-                  , o2B = 0x1b873593;
+                var o2B = 0x1b873593;
                 var x2B;
                 var i2B;
                 y4B = 3;
