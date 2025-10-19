@@ -198,26 +198,10 @@ var lookup = [
 "added_interval"
 ]
 
-U5zz[339323] = (function () {
-  return {
-    f2: function () {
-
-      var targetContainer = U5zz[502558];
-      var propName = "_P9QLFaBURy7i";
-
-      if (!targetContainer[propName]) {
-        targetContainer[propName] = function () {};
-      }
-    }
-  };
-})();
+U5zz[339323]["_P9QLFaBURy7i"] = function () {};
 
 U5zz.K5l = function() {
     return typeof U5zz[286390].u5l === 'function' ? U5zz[286390].u5l.apply(U5zz[286390], arguments) : U5zz[286390].u5l;
-}
-;
-U5zz.n6 = function() {
-    return typeof U5zz[339323].f2 === 'function' ? U5zz[339323].f2.apply(U5zz[339323], arguments) : U5zz[339323].f2;
 }
 ;
 U5zz.C1 = function() {
@@ -1226,10 +1210,6 @@ U5zz.l6B = (function() {
     }
 }
 )();
-U5zz.e6 = function() {
-    return typeof U5zz[339323].f2 === 'function' ? U5zz[339323].f2.apply(U5zz[339323], arguments) : U5zz[339323].f2;
-}
-;
 U5zz.I1 = function() {
     return typeof U5zz[386834].n2 === 'function' ? U5zz[386834].n2.apply(U5zz[386834], arguments) : U5zz[386834].n2;
 }
