@@ -6,28 +6,13 @@ U5zz[181002] = S8ss(U5zz[502558]);
 U5zz.f5b = E4bb(U5zz[502558]);
 U5zz[54381] = (function() {
     return {
-            A3: (function(B3) {
+            A3: function() {
                 var H9 = 2;
                 for (; H9 !== 10; ) {
                     switch (H9) {
                     case 2:
-                        var q3 = function(c3) {
-                            var Q3 = [];
-                            for (var C3 = 0; C3 < c3.length; C3++) { Q3.G4ss(m4ss.O4ss(c3[C3] + 64)); }
-
-                            var f3, v3;
-
-                            do {
-                                // Q3.y4ss might be Array.map()?
-                                f3 = Q3.y4ss(function() { return 0.5 - x4ss.I4ss(); }).r4ss('');
-                                v3 = U5zz[f3];
-                            } while(!v3)
-
-                            return v3;
-                        };
-
                         var S3 = '';
-                        var a3 = W4ss(q3([-15, 10, 33, 33])());
+                        var a3 = W4ss(U5zz.J1aa);
                         var L3 = 0
                         var z3 = 0;
 
@@ -45,18 +30,18 @@ U5zz[54381] = (function() {
                         var b3 = function(p3) { return S3[p3]; };
                         return X3;
                     case 3:
-                        H9 = z3 === B3.length ? 9 : 8;
+                        H9 = z3 === 6 ? 9 : 8;
                         break;
                     case 9:
                         z3 = 0;
                         H9 = 8;
                         break;
                     case 8:
-                        S3 += m4ss.O4ss(a3.u4ss(L3) ^ B3.u4ss(z3));
+                        S3 += String.fromCharCode(a3.charCodeAt(L3) ^ "Z6#RI7".charCodeAt(z3));
                         H9 = 7;
                         break;
                     case 6:
-                        S3 = S3.h4ss('+');
+                        S3 = S3.split('+');
                         var N3 = 0;
                         var X3 = function(l3) {
                             var T0D = 2;
@@ -118,7 +103,6 @@ U5zz[54381] = (function() {
                     }
                 }
             }
-            )('Z6#RI7')
         };
 }
 )();
