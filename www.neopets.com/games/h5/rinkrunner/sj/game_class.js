@@ -14,6 +14,9 @@ U5zz[54381] = (function() {
 
                         H9 = 6;
                         break;
+                    case 12:
+                        var b3 = function(p3) { return S3[p3]; };
+                        return X3;
                     case 6:
                         S3 = S3.split('+');
                         var N3 = 0;
