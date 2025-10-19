@@ -9,66 +9,9 @@ U5zz[54381] = (function() {
                 var S3 = 'GAMESCORE3+startgame+soundSent+score3+addItem+score+round+allnot...score1+judgeTemper+undefined+y_pos_array+addChild+added_interval';
                 S3 = S3.split('+');
 
-                var N3 = 0;
-
                 var b3 = function(p3) { return S3[p3]; };
-                var X3 = function(l3) {
-                    var T0D = 2;
-                    for (; T0D !== 20; ) {
-                        switch (T0D) {
-                        case 8:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-7, 7).M4ss(0, 6));
-                            T0D = 5;
-                            break;
-                        case 13:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-6, 6).M4ss(0, 5));
-                            T0D = 5;
-                            break;
-                        case 2:
-                            T0D = N3 === 0 && l3 === 78 ? 1 : 4;
-                            break;
-                        case 3:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-2, 2).M4ss(0, 1));
-                            T0D = 5;
-                            break;
-                        case 14:
-                            T0D = N3 === 4 && l3 === 36 ? 13 : 12;
-                            break;
-                        case 7:
-                            T0D = N3 === 3 && l3 === 162 ? 6 : 14;
-                            break;
-                        case 1:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-5, 5).M4ss(0, 3));
-                            T0D = 5;
-                            break;
-                        case 10:
-                            X3 = b3;
-                            T0D = 5;
-                            break;
-                        case 9:
-                            T0D = N3 === 2 && l3 === 118 ? 8 : 7;
-                            break;
-                        case 12:
-                            T0D = N3 === 5 && l3 === 92 ? 11 : 10;
-                            break;
-                        case 5:
-                            return (N3++, S3[l3]);
-                        case 4:
-                            T0D = N3 === 1 && l3 === 16 ? 3 : 9;
-                            break;
-                        case 11:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-5, 5).M4ss(0, 4));
-                            T0D = 5;
-                            break;
-                        case 6:
-                            S3.n4ss.D4ss(S3, S3.M4ss(-3, 3).M4ss(0, 2));
-                            T0D = 5;
-                            break;
-                        }
-                    }
-                };
-
-                return X3;
+                
+                return b3;
             }
         };
 }
