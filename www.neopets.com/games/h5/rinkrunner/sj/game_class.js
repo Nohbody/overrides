@@ -3,27 +3,201 @@ U5zz[541857] = w9gg(U5zz[502558]);
 U5zz[586355] = V7JJ(U5zz[502558]);
 U5zz[181002] = S8ss(U5zz[502558]);
 U5zz.f5b = E4bb(U5zz[502558]);
-U5zz[54381] = (function() {
-    return {
-            A3: function() {
-                var S3 = 'GAMESCORE3+startgame+soundSent+score3+addItem+score+round+allnot...score1+judgeTemper+undefined+y_pos_array+addChild+added_interval';
-                S3 = S3.split('+');
 
-                var b3 = function(p3) { return S3[p3]; };
-                
-                return b3;
-            }
-        };
-}
-)();
-U5zz.y0D = function() {
-    return typeof U5zz[54381].A3 === 'function' ? U5zz[54381].A3.apply(U5zz[54381], arguments) : U5zz[54381].A3;
-}
-;
-U5zz.O0D = function() {
-    return typeof U5zz[54381].A3 === 'function' ? U5zz[54381].A3.apply(U5zz[54381], arguments) : U5zz[54381].A3;
-}
-;
+var lookup = [
+"GAMESCORE3",
+"startgame",
+"soundSent",
+"score3",
+"addItem",
+"score",
+"round",
+"allnotes",
+"level",
+"addEventListener",
+"mouseY",
+"roll",
+"GAME_JUMP_NUM",
+"blank",
+"added",
+"text",
+"temper",
+"mouseChildren",
+"numBalls",
+"pieceColor",
+"numSharpAdded",
+"startTimer",
+"score2",
+"sqrt",
+"temper_frame",
+"sharpOnStage",
+"final_level_score",
+"sharp",
+"setEnterFrame",
+"ypos",
+"y_stage_ratio",
+"in_flight",
+"_x",
+"jump_value",
+"_width",
+"move_floe_y",
+"proceed_mc",
+"0",
+"r_val",
+"r_y",
+"hitArea",
+"x_speed",
+"temp_level",
+"clearSoundValues",
+"scaleX",
+"clicked",
+"frameNum",
+"tempx",
+"cos",
+"updatelevel_score",
+"floesEmerged",
+"judge3",
+"WaterCreephitArea",
+"ob",
+"y_speed",
+"clickedFloe",
+"0xFF0000",
+"r_side",
+"x_stage_ratio",
+"x_pos_array",
+"visible",
+"numNotesToPlay",
+"setInt",
+"r",
+"mass",
+"frameStart",
+"prototype",
+"0x0099FF",
+"ballToBallDetection",
+"gameEnterFrame",
+"cleared",
+"died",
+"ice_cracks_large_mc",
+"waterCreep3",
+"player_piece_mc",
+"xmov",
+"shake",
+"ice_floe_holder",
+"judge2_val",
+"clicked_x",
+"added_interval",
+"globalToLocal",
+"_y",
+"qualifying_score",
+"gotoAndStop",
+"judge2",
+"ymov",
+"stateVal",
+"notesAdded",
+"mousedown",
+"tempy",
+"is_sharp",
+"moveFloes",
+"val",
+"gotoAndPlay",
+"r_x",
+"flat",
+"score1",
+"random",
+"num_caught",
+"display_score1",
+"xpos",
+"proceed",
+"happy",
+"GAMELEVEL_SCORE",
+"j1",
+"radius",
+"judge3_val",
+"atan2",
+"endGameClear",
+"level_score",
+"display_score2",
+"p_objParent",
+"judge1",
+"parent",
+"removeChild",
+"waterCreep2",
+"angry",
+"jumped_num",
+"ice_floe",
+"0x9900FF",
+"alive",
+"blankJudges",
+"0x009900",
+"move_floe_x",
+"GAMESCORE",
+"waterCreep4",
+"ceil",
+"j2",
+"clicked_y",
+"button_blank",
+"judgesEmoted",
+"end_game_mc",
+"notePlayingVal",
+"counter",
+"scaleY",
+"0xFF9900",
+"name",
+"nextLevel",
+"calcLevelScore",
+"scoreAdded",
+"best_score",
+"sendScore",
+"GAME_JUMP_VALUE",
+"GAMESCORE1",
+"startWaterCreep",
+"ice_stage",
+"MovieClip",
+"GAMESCORE2",
+"gameInterval",
+"notePlaying",
+"level_scoretxt",
+"victoryDance",
+"judge1_val",
+"note",
+"note_level",
+"duration",
+"instance",
+"game",
+"sin",
+"evalLanding",
+"floor",
+"rattle",
+"feedback_mc",
+"addChild",
+"length",
+"scale_array",
+"level_scoretxt",
+"clip",
+"x_position",
+"stopWaterCreep",
+"addFloes",
+"x",
+"temp_level",
+"j3",
+"jump_counter",
+"round",
+"y_position",
+"mouseX",
+"run_mc",
+"waterCreep1",
+"ice_stage_du",
+"display_score3",
+"length",
+"y",
+"display_score1",
+"judgeTemper",
+"undefined",
+"y_pos_array",
+"addChild",
+"added_interval"
+]
+
 U5zz[339323] = (function() {
     var A6 = 2;
     for (; A6 !== 1; ) {
@@ -484,7 +658,7 @@ U5zz[286390] = (function() {
                     for (; Q5l[4] !== 11; ) {
                         switch (Q5l[4]) {
                         case 2:
-                            Q5l[4] = U5zz.O0D(78) != 27 ? 1 : 5;
+                            Q5l[4] = proceed_mc != 27 ? 1 : 5;
                             break;
                         case 14:
                             Q5l[2] = 29;
@@ -507,23 +681,23 @@ U5zz[286390] = (function() {
                             Q5l[4] = 6;
                             break;
                         case 6:
-                            Q5l[4] = U5zz.O0D(36) === 88 ? 14 : 13;
+                            Q5l[4] = proceed_mc === 88 ? 14 : 13;
                             break;
                         case 8:
-                            Q5l[4] = U5zz.y0D(162) > 0 ? 7 : 6;
+                            Q5l[4] = counter > 0 ? 7 : 6;
                             break;
                         case 5:
-                            Q5l[4] = U5zz.O0D(16) !== 74 ? 4 : 3;
+                            Q5l[4] = temper !== 74 ? 4 : 3;
                             break;
                         case 13:
-                            Q5l[4] = 4 > U5zz.O0D(92) ? 12 : 11;
+                            Q5l[4] = 4 > r_side ? 12 : 11;
                             break;
                         case 9:
                             Q5l[5] = 2;
                             Q5l[4] = 8;
                             break;
                         case 3:
-                            Q5l[4] = U5zz.O0D(118) < 22 ? 9 : 8;
+                            Q5l[4] = tempy < 22 ? 9 : 8;
                             break;
                         }
                     }
@@ -2142,5 +2316,5 @@ var game_class = (function n2B(c6B) {
 function gamereset() {}
 U5zz.R6B();
 var mainLoopInterval;
-game_class[U5zz.O0D(88)] = new createjs[U5zz.y0D(169)]();
-game_class[U5zz.y0D(179)];
+game_class[0xFF0000] = new createjs[notePlayingVal]();
+game_class[GAME_JUMP_VALUE];
